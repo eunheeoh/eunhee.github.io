@@ -1,7 +1,6 @@
 * {
 	margin:0;
 	padding:0;
-	box-sizing:border-box;
 }
 
 ol, ul, a {
@@ -19,17 +18,19 @@ body {
 header {
 	position:relative;
 	display:block;
-	margin:100px auto;
+	margin:100px auto 50px;
 	text-align:center;
 }
 
 header a img {
 	border-radius:50%;
+	margin-bottom:10px;
 }
 
 h1 {
 	font-size:40px;
 	color:#222;
+	padding-bottom:10px;
 }
 
 h2 {
@@ -38,22 +39,23 @@ h2 {
 	color:#aaa;
 }
 
-nav {
+#main_nav {
 	display:block;
 	text-align:center;
 }
 
-ul {
+#main_nav ul {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	align-content: space-between;
 }
 
-ul li {
+#main_nav ul li {
 	line-height:24px;
 	font-weight:400;
 	color:#666;
+	padding-left:30px;
 }
 
 footer {
@@ -68,4 +70,47 @@ footer {
 	font-weight:300;
 
 	text-align:center;
+}
+
+
+/* project */
+
+.wrap {
+	position:relative;
+	left:50%;
+	margin-left:-230px;
+	padding-top:60px;
+}
+
+.wrap h2 {
+	font-size:20px;
+	font-weight:600;
+	color:#222;
+}
+
+.wrap h3 {
+	padding-top:10px;
+}
+
+.wrap p {
+	padding:10px;
+}
+
+.list_1 {
+	padding-bottom:30px;
+	width:480px;
+	text-align:center;
+}
+
+.list_2 {
+	width:480px;
+	text-align:center;
+}
+
+.list_2 span {
+	font-size:14px;
+}
+
+.list_2 h4 {
+	padding-top:5px
 }
