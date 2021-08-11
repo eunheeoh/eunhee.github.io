@@ -99,12 +99,12 @@ footer {
 .list_1 {
 	padding-bottom:30px;
 	width:480px;
-	text-align:center;
+	/*text-align:center;*/
 }
 
 .list_2 {
 	width:480px;
-	text-align:center;
+	/*text-align:center;*/
 }
 
 .list_2 span {
@@ -114,3 +114,5 @@ footer {
 .list_2 h4 {
 	padding-top:5px
 }
+
+/* about */
